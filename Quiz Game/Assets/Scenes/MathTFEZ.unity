@@ -133,6 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 11128307}
   - component: {fileID: 11128308}
+  - component: {fileID: 11128309}
+  - component: {fileID: 11128310}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -192,6 +194,32 @@ MonoBehaviour:
   falseAnswerText: {fileID: 1087800307}
   timeBetweenQuestions: 3
   animator: {fileID: 1217785376}
+--- !u!114 &11128309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11128306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 308345574706cc049adea5080835446b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 1967896141}
+--- !u!114 &11128310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11128306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a048858629a738e42a05c7ed68ea5c56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 1529695736}
 --- !u!1 &188645383
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,8 +622,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -806, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -633.29126, y: 0}
+  m_SizeDelta: {x: -1266.5825, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313817102
 MonoBehaviour:
@@ -610,7 +638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.8745098}
+  m_Color: {r: 1, g: 0, b: 0, a: 0.8745098}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -630,7 +658,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stream:'
+  m_Text: 'Stream: Mathematics'
 --- !u!222 &313817103
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2412,8 +2440,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 145, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 309.68866, y: 0}
+  m_SizeDelta: {x: -1428.2626, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1529695736
 MonoBehaviour:
@@ -2442,7 +2470,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 156
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -3253,8 +3281,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -344, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -109.09, y: 0}
+  m_SizeDelta: {x: -1434.1892, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2080698945
 MonoBehaviour:
@@ -3269,7 +3297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.8745098}
+  m_Color: {r: 0.12931049, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3283,13 +3311,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 156
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Difficulty:'
+  m_Text: 'Difficulty: Easy'
 --- !u!222 &2080698946
 CanvasRenderer:
   m_ObjectHideFlags: 0

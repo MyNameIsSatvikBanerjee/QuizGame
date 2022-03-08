@@ -73,6 +73,7 @@ public class GameManager : MonoBehaviour
         if (currentQuestion.isTrue)
         {
             Debug.Log("CORRECT!");
+            ScoreScript.scoreValue += 1;
         }
         else
         {
@@ -91,6 +92,7 @@ public class GameManager : MonoBehaviour
         if (!currentQuestion.isTrue)
         {
             Debug.Log("CORRECT!");
+            ScoreScript.scoreValue += 1;
         }
         else
         {
