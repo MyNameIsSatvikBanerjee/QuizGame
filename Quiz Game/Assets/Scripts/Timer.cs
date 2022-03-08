@@ -19,7 +19,7 @@ public class Timer : MonoBehaviour
     {
 
         currentTime += 1 * Time.deltaTime;
-        timerText.text = "Time: " + currentTime.ToString("0") + " second";
+        timerText.text = "Time: " + currentTime.ToString("0") + " s";
 
     }
 }
